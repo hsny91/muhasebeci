@@ -8,10 +8,10 @@ kantonName = [
  *  Isim,soyisim ve kanton bilgilerini tutan class.Input alanindan okunan bilgiler once bu classa daha sonra bir diziye aktarilir.
  */
 class Information {
-  constructor(firstName, lastName, canton) {
+  constructor(firstName, lastName, kanton) {
     this.firstName = firstName;
     this.lastName = lastName;
-    this.canton = canton;
+    this.kanton = kanton;
   }
 }
 /**
