@@ -18,7 +18,7 @@
  * Uzerine tiklandiginda isim,soyisim ve kanton bilgileri alfabetik olarak ve ters olarak siralayabilen metoda sahip bir class olusturulur. (ilk tiklamada alfabetik ikincisinde tersi seklinde)
  */
 
-addCantonOptionValue(); // "cantonName" isimli dizide tutulan kanton isimlerinin ekrana yazdirilmasi
+addKantonOptionValue(); // "cantonName" isimli dizide tutulan kanton isimlerinin ekrana yazdirilmasi
 ClickSaveInformation.addEventListenerToButton(); // save butonuna tiklandiginda input alanina girilen bilgiler arraya aktarilir,tabloya yazilir,input alanlarinin bos olup olmamasi kontrol edilir, kayit sonrasi input alani bosaltilir.
 Search.clickFilterNameLastName(); // bu metod cagirilarak; tabloda isim, soyisime gore arama yapilabilmektedir.(isim soyisim birlikte yazilmadigi ya ismin ya da soyismin yazildigi aramalar yapilir.)
 Sort.sortAlphabetically(); // isim, soyisim ve kantona gore alfabetik ve tersi siralama yapilir.(ilk tik A'dan Z'ye siralama,ikinci tik Z'den A'ya siralama)

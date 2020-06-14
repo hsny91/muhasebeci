@@ -1,7 +1,7 @@
 let sortDescend = true; // siralama ve tersine siralama yaparken kullanilan degisken.
 let customerInformation = new Array(); // Class kullanilarak yapilan yeni arrayin tanimlanmasi
-let cantonName = new Array();
-cantonName = [
+let kantonName = new Array();
+kantonName = [
   "AG","AI","AR","BE","BL","BS","FR","GE","GL","GR","JU","LU","NE","NW","OW","SG","SH","SO","SZ","TG","TI","UR","VD","VS","ZG","ZH",
 ];
 /**
