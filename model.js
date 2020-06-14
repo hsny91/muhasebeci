@@ -83,7 +83,7 @@ class ClickSaveInformation {
 /**
  * Bu class ile "searchButton" idli butona basildiginda input alanina yazilan isim ve soyisime gore ayri ayri arama yapilabilir. Kriterlere uygun veri bulundugunda bu veri ekrana yazdirilir.
  */
-class search {
+class Search {
   static clickFilterNameLastName() {
     General.findDomElementById("searchButton").addEventListener("click",filterNameLastName);
     function filterNameLastName() {
