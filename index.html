@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Relationship Management</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>LEYLA SAKMAK<br><br>Yeminli Mali Musavir </h1>
+    </header>
+    <main>
+        <section class="input">
+            <p id="errorMessage"></p><br>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" class="inputInformation" id="firstName" /><br><br>
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" class="inputInformation" id="lastName" /><br><br>
+            <label for="canton">Canton</label><br>
+            <select id="cantonName">
+                <option value=""></option>
+            </select><br><br>
+            <button type="button" id="saveButton">SAVE</button><br><br>
+        </section>
+        <section class="customerInformationSection">
+            <div class="search">
+                <input type="text" id="searchName" placeholder="Please enter your name or last name" />
+                <button type="submit" id="searchButton">Search</button><br><br>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="firstNameTitle">FIRSTNAME</th>
+                        <th id="lastNameTitle">LASTNAME</th>
+                        <th id="cantonNameTitle">CANTON</th>
+                    </tr>
+                </thead>
+                <tbody id="customerInformation">
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="model.js"></script>
+    <script src="function.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
