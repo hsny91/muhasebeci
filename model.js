@@ -2,7 +2,7 @@ let sortDescend = true; // siralama ve tersine siralama yaparken kullanilan degi
 let customerInformation = new Array(); // Class kullanilarak yapilan yeni arrayin tanimlanmasi
 let kantonName = new Array();
 kantonName = [
-  "AG","AR","BE","BL","BS","FR","GE","GL","GR","JU","LU","NE","NW","OW","SG","SH","SO","SZ","TG","TI","UR","VD","VS","ZG","ZH",
+  "AG","AI","AR","BE","BL","BS","FR","GE","GL","GR","JU","LU","NE","NW","OW","SG","SH","SO","SZ","TG","TI","UR","VD","VS","ZG","ZH",
 ];
 /**
  *  Isim,soyisim ve kanton bilgilerini tutan class.Input alanindan okunan bilgiler once bu classa daha sonra bir diziye aktarilir.
