@@ -39,7 +39,7 @@ class General {
  */
 class ClickSaveInformation {
   static checkInputText() {
-    if (General.readInputValue("firstName") === "" ||General.readInputValue("lastName") == "" ||General.readInputValue("cantonName") == "" ) {
+    if (General.readInputValue("firstName") === "" ||General.readInputValue("lastName") === "" ||General.readInputValue("cantonName") == "" ) {
       General.findDomElementById("errorMessage").innerHTML ="Please enter the requested information completely";
       return false;
     }
